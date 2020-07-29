@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Chelsea Market', cursive;
+}
+a{
+    text-decoration: none;
+    color: #ffd325;
+}
+header{
+    height: 10vh;
+    background-color: #101f30;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_logo{
+    width: 10vw;
+}
+header h1{
+    color: #ffd325;
+    font-size: 3.5vw;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #35669c;
+    padding: 10vh 10vw;
+}
+.item-container{
+    margin: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffd32557;
+    width: 30vw;
+    padding: 2vw;
+}
+.item-container img{
+    align-self: center;
+    width: 80%;
+}
+.item-container p{
+    font-size: 2vw;
+    margin: 1.5vh;
+    text-align: center;
+}
+footer{
+    
+    background-color: #101f30;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer h1{
+    color: #ffd325;
+    font-size: 3.5vw;
+}
+
+@media screen and (max-width:768px){
+    .item-container{
+        width: 80vw;
+    }
+    .item-container p{
+        font-size: 6vw;
+
+    }
+    .header_logo{
+        width: 18vw;
+    }
+
+}
